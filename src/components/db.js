@@ -1,0 +1,28 @@
+const data = [
+    {
+        Name:"Hossam Mokhtar Saad",
+        Status:"Intial Acceptance",
+        Major:"Medcine"
+    },
+    {
+        Name:"Mohamed Samy Abdelaad",
+        Status:"Intial Acceptance",
+        Major:"Medcine"
+    },
+    {
+        Name:"Zakaria Hassan Abdellatif",
+        Status:"Conditional Acceptance",
+        Major:"Medcine"
+    },
+    {
+        Name:"Zakaria Mohamed Zakaria",
+        Status:"Intial Acceptance",
+        Major:"Medcine"
+    },
+    {
+        Name:"Omr Mukhtar Ismael",
+        Status:"Intial Acceptance",
+        Major:"Medcine"
+    }
+]
+export default students
