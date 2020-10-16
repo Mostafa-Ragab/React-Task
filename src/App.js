@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import NavigationBar from './components/Navigation_Bar'
 import UnderReview from './components/Under_Review'
 import IntialAcceptance from './components/Intial_Acceptance'
