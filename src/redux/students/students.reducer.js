@@ -1,6 +1,3 @@
-import studentsTypes from './students.types';
-
-
 const INITIAL_STATE = {
     studentList: [
       {
@@ -15,13 +12,28 @@ const INITIAL_STATE = {
       },
       {
           Name:"Zakaria Hassan Abdellatif",
-          Status:"Conditional Acceptance",
+          Status:"Rejected",
           Major:"Medcine"
       },
       {
           Name:"Zakaria Mohamed Zakaria",
           Status:"Intial Acceptance",
           Major:"Medcine"
+      },
+      {
+        Name:"Mostafa Ragab Raslan",
+        Status:"Rejected",
+        Major:"Meicine"
+      },
+      {
+        Name:"Ashraf Mohamed abdellstar",
+        Status:"Under Review",
+        Major:"Meicine"
+      },
+      {
+        Name:"Sayed Saeed Kamel",
+        Status:"Conditional Acceptance",
+        Major:"Medcine"
       },
       {
           Name:"Omr Mukhtar Ismael",
@@ -33,11 +45,6 @@ const INITIAL_STATE = {
   
   const studentReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
-      case studentsTypes.STUDENTS_LIST:
-        return {
-          ...state,
-          studentList: action.payload
-        }
       default:
         return state;
     }
