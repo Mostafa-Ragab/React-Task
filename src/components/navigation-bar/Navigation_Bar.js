@@ -1,14 +1,15 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import Translate from 'react-translate-component'
+
 const NavigationBar = ()=>{
     return(
         
-        <nav className="navbar navbar-expand-md navbar-light  mt-5">
+        <nav className="navbar navbar-expand-md navbar-light shadow-none">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
+            <div className="collapse navbar-collapse navbar-brand" id="navbarNav">
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item active">
                         <NavLink className="nav-link" to="/"><Translate content="LinkAll"/></NavLink>
