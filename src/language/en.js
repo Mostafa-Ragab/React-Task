@@ -14,9 +14,4 @@ export default
     LinkInitialAcceptance:"Initial Acceptance",
     LinkConditionalAcceptance:"Conditional Acceptance",
     LinkRejected:"Rejected",
-     //------------------------------------
-     ComponentUnderReview:"Under Review",
-     ComponentInitialAcceptance:"Initial Acceptance",
-     ComponentConditionalAcceptance:"Conditional Acceptance",
-     ComponentRejected:"Rejected"
 }
