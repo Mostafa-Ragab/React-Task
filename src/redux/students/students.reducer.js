@@ -1,7 +1,7 @@
 const INITIAL_STATE = {
     studentList: [
       {
-          Name:"Hossam Mokhtar Saad",
+          Name:"Mostafa Ragab raslan",
           Status:"Intial Acceptance",
           Major:"Medcine"
       },
@@ -21,7 +21,7 @@ const INITIAL_STATE = {
           Major:"Medcine"
       },
       {
-        Name:"Mostafa Ragab Raslan",
+        Name:"Hossam Mokhtar Saad",
         Status:"Rejected",
         Major:"Meicine"
       },
